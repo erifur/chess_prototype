@@ -25,7 +25,7 @@ def meny(): # Hovedmeny, velger spilltype.
 	print("1 - La maskinen spille mot seg selv")
 	print("2 - Spill mot datamaskin")
 	print("3 - Spill mot en annen person")
-	print("4 - Teorioppgaven")
+
 	game_type = input()
 	
 	if game_type == '1':
@@ -34,25 +34,6 @@ def meny(): # Hovedmeny, velger spilltype.
 		vsAI()
 	elif game_type == '3':
 		vsPlayer()
-	elif game_type == '4':
-		teori()
-
-
-
-def teori(): # Teorioppgaven
-	
-	print("En algoritme er et sett med operasjoner som skal gjennomføres.\n"
-		  "Algoritmen skal gi en bestemt output basert på en input.\n")
-	
-	print("O(n^2) betyr at når algoritmen utføres på et datasett er kjøretiden\n"
-		  "proporsjonal med størrelsen på datasettet opphøyd i andre. Eksempler\n"
-		  "på dette er sorteringsalgoritmene bubble sort og selection sort.\n")
-	
-	print("For n>10 er rekkefølgen fra mest til minst effektiv:\n"
-		  "O(nlog(n), O(n^2), O(n^3), O(2^n).")
-	
-	print("En rekursjonsfunksjon kaller på seg selv helt til visse krav er\n"
-		  "oppfylt. I iterasjon brukes en for- eller while-løkke.\n")
 
 
 
